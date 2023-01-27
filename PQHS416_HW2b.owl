@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.case.edu/PQHS416/NeurologicalDisorders#"
+     xml:base="http://www.case.edu/PQHS416/NeurologicalDisorders"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Acquired_epileptic_aphasia -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Acquired_epileptic_aphasia">
+        <rdfs:comment>Acquired epileptic aphasia (AEA) typically develops in healthy children who acutely or progressively lose receptive and expressive language ability coincident with the appearance of paroxysmal electroencephalographic (EEG) changes.</rdfs:comment>
+        <rdfs:label>Acquired aphasia with epilepsy</rdfs:label>
+        <rdfs:label>Acquired epileptic aphasia (disorder)</rdfs:label>
+        <rdfs:label>Aphasia co-occurrent with epilepsy</rdfs:label>
+        <rdfs:label>Landau-Kleffner syndrome</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT?conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F230438007</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Atypical_absence_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Atypical_absence_epilepsy">
+        <rdfs:comment>A seizure disorder usually occurring in childhood characterized by rhythmic electrical brain discharges of generalized onset. Clinical features include a sudden cessation of ongoing activity usually without loss of postural tone. Rhythmic blinking of the eyelids or lip smacking frequently accompanies the SEIZURES. The usual duration is 5-10 seconds, and multiple episodes may occur daily. Juvenile absence epilepsy is characterized by the juvenile onset of absence seizures and an increased incidence of myoclonus and tonic-clonic seizures. (Menkes, Textbook of Child Neurology, 5th ed, p736)</rdfs:comment>
+        <rdfs:label>Atypical absence seizure</rdfs:label>
+        <rdfs:label>Atypical absence seizure (finding)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/23374007</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Autosomal_Dominant_Partial_Epilepsy_With_Auditory_Features -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Autosomal_Dominant_Partial_Epilepsy_With_Auditory_Features">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Temporal_lobe_epilepsy"/>
+        <rdfs:comment>A rare genetic familial partial epilepsy disease with characteristics of focal seizures associated with prominent ictal auditory symptoms, and/or receptive aphasia, presenting in two or more family members and having a relatively benign evolution.</rdfs:comment>
+        <rdfs:label>Autosomal dominant epilepsy with auditory features</rdfs:label>
+        <rdfs:label>Autosomal dominant epilepsy with auditory features (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/784377008</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Autosomal_recessive_cerebellar_ataxia -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Autosomal_recessive_cerebellar_ataxia">
+        <rdfs:comment>A cerebellar ataxia that has_material_basis_in autosomal recessive inheritance.</rdfs:comment>
+        <rdfs:label>autosomal recessive cerebellar ataxia</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/DOID_0050950</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Benign_childhood_epilepsy_with_centrotemporal_spikes -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Benign_childhood_epilepsy_with_centrotemporal_spikes">
+        <rdfs:comment>Childhood epilepsy with centrotemporal spikes, atypical childhood epilepsy with centrotemporal spikes, epileptic encephalopathy with continuous spike-and-wave during sleep and Landau Kleffner syndrome are syndromes that have in common certain EEG features, with variable severity of focal seizures and neurocognitive impairment. They may be considered as a spectrum, an individual child may transition from one of these syndromes to another over time. A childhood-onset epilepsy syndrom that is characterized by onset of seizures between 3 and 14 years (peak 8-9 years) that usually resolve by age 13 years, but can occasionally occur up to age 18 years of age. Both sexes are affected. Antecedent, birth and neonatal history is normal. A history of febrile seizure (in 5-15%) may be seen. A history of Panayiotopoulos syndrome may be present in a very small number of cases. Neurological exam and head size is normal. Development and cognition prior to onset of seizures is normal. During the course of the active epilepsy, behavioral and neuropsychological deficits may be found, particularly in language and executive functioning. These deficits improve when seizures remit.</rdfs:comment>
+        <rdfs:label>Benign childhood epilepsy with centrotemporal spikes</rdfs:label>
+        <rdfs:label>Rolandic Epilepsy Benign Benign Childhood Epilepsy With Centrotemporal Spikes Benign Epilepsy With Centrotemporal Spikes Epilepsy Centrotemporal Temporal-Central Focal Epilepsy Benign Childhood Epilepsy with Centrotemporal Spikes BENIGN ROLANDIC EPILEPSY BRE Benign rolandic epilepsy Centrotemporal Epilepsies Temporal Central Focal Epilepsy Centrotemporal epilepsy Benign Childhood Epilepsy With Centro-Temporal Spikes CENTRALOPATHIC EPILEPSY TEMPORAL-CENTRAL FOCAL EPILEPSY ECT Epilepsy Benign Rolandic BENIGN EPILEPSY OF CHILDHOOD WITH CENTROTEMPORAL SPIKES Benign Rolandic epilepsy Epilepsies Centrotemporal Temporal-Central Focal Epilepsies Centralopathic Epilepsies Epilepsy Temporal-Central Focal Focal Epilepsies Temporal-Central Benign Childhood Epilepsy With Centro Temporal Spikes Benign Rolandic Epilepsy Epilepsies Centralopathic Benign Rolandic Epilepsy of Childhood CENTROTEMPORAL EPILEPSY Centralopathic Epilepsy BCECTS Centralopathic epilepsy BECTS Benign Epilepsy Of Childhood With Centrotemporal Spikes Benign Rolandic epilepsy (disorder) Epilepsies Temporal-Central Focal Focal Epilepsy Temporal-Central Epilepsy Centralopathic Temporal-central focal epilepsy Centrotemporal Epilepsy</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/EPSO?conceptid=http%3A%2F%2Fwww.case.edu%2FEpilepsyOntology.owl%23ChildhoodRolandicEpilepsy</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Benign_neonatal_convulsions -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Benign_neonatal_convulsions">
+        <rdfs:comment>Benign neonatal convulsions are defined as seizures with onset after birth through day 28 in an otherwise healthy child with no other known medical or neurologic problems. Such cases may be familial or isolated. Psychomotor development should be normal for a full-term or near full-term infant with benign convulsions.</rdfs:comment>
+        <rdfs:label>Benign neonatal convulsions</rdfs:label>
+        <rdfs:label>Benign neonatal convulsions (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/38281008</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Complex_partial_seizure -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Complex_partial_seizure">
+        <rdfs:comment>A seizure that originates in one area of the brain that affects consciousness.</rdfs:comment>
+        <rdfs:label>Complex Partial Seizure</rdfs:label>
+        <rdfs:label>Focal Impaired Awareness Seizure</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/NCIT?conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C155290</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Drug-induced_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Drug-induced_epilepsy">
+        <rdfs:comment>Drug-induced ES are most often associated with the use of antidepressants, antipsychotics, antiepileptic drugs (overdose or as a result of discontinuation), antibiotics, immunosuppressants and immunomodulators, antitumor agents, analgesics, central nervous system stimulators, anesthetics etc.</rdfs:comment>
+        <rdfs:label>Drug-induced epilepsy (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/230441003</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Epilepsia_partialis_continua -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Epilepsia_partialis_continua">
+        <rdfs:comment>A variant of EPILEPSY characterized by continuous focal jerking of a body part over a period of hours, days, or even years without spreading to other body regions. Contractions may be aggravated by movement and are reduced, but not abolished during sleep. ELECTROENCEPHALOGRAPHY demonstrates epileptiform (spike and wave) discharges over the hemisphere opposite to the affected limb in most instances. The repetitive movements may originate from the CEREBRAL CORTEX or from subcortical structures (e.g., BRAIN STEM; BASAL GANGLIA). This condition is associated with Russian Spring and Summer encephalitis (see ENCEPHALITIS, TICK BORNE); Rasmussen syndrome (see ENCEPHALITIS); MULTIPLE SCLEROSIS; DIABETES MELLITUS; BRAIN NEOPLASMS; and CEREBROVASCULAR DISORDERS. (From Brain, 1996 April;119(pt2):393-407; Epilepsia 1993;34;Suppl 1:S29-S36; and Adams et al., Principles of Neurology, 6th ed, p319)</rdfs:comment>
+        <rdfs:label>Epilepsia partialis continua (disorder)</rdfs:label>
+        <rdfs:label>Focal status epilepticus</rdfs:label>
+        <rdfs:label>Kojevnikov epilepsy</rdfs:label>
+        <rdfs:label>Kojewnikov&apos;s epilepsy</rdfs:label>
+        <rdfs:label>Motor simple partial status</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/241006</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Epileptic_encephalopathy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Epileptic_encephalopathy">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy"/>
+        <rdfs:comment>a group of disorders in which the unremitting epileptic activity contributes to progressive cerebral dysfunction.</rdfs:comment>
+        <rdfs:label>Epileptic encephalopathy (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/723125008</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy">
+        <rdfs:comment>A generalized seizure occurs when the abnormal electrical activity causing a seizure begins in both halves (hemispheres) of the brain at the same time.</rdfs:comment>
+        <rdfs:label>Generalized epilepsy</rdfs:label>
+        <rdfs:label>Generalized epilepsy (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/19598007</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy_with_febrile_seizures_plus -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy_with_febrile_seizures_plus">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy"/>
+        <rdfs:comment>Genetic epilepsy with febrile seizures plus (GEFS+) is a spectrum of seizure disorders of varying severity. GEFS+ is usually diagnosed in families whose members have a combination of febrile seizures, which are triggered by a high fever, and recurrent seizures (epilepsy) of other types, including seizures that are not related to fevers (afebrile seizures).</rdfs:comment>
+        <rdfs:label>Generalized epilepsy with febrile seizures plus</rdfs:label>
+        <rdfs:label>Generalized epilepsy with febrile seizures plus (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT?conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F699688008</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Grand_mal_status -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Grand_mal_status">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy"/>
+        <rdfs:comment>A generalized tonic-clinic seizure, characterized by loss of consciousness. This type of seizure may be preceded by an aura and is frequently followed by a period of confusion and lethargy (post-ictal state).</rdfs:comment>
+        <rdfs:label>Convulsive status epilepticus</rdfs:label>
+        <rdfs:label>Grand mal status (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/13973009</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Idiopathic_generalized_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Idiopathic_generalized_epilepsy">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy"/>
+        <rdfs:comment>Idiopathic (genetic) generalized epilepsy is a subtype of generalized epilepsy and consists of childhood absence epilepsy, juvenile absence epilepsy, juvenile myoclonic epilepsy, and generalized tonic-clonic seizures alone.</rdfs:comment>
+        <rdfs:label>Idiopathic generalised epilepsy</rdfs:label>
+        <rdfs:label>Primary generalised epilepsy</rdfs:label>
+        <rdfs:label>Primary generalized epilepsy</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/36803009</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Idiopathic_myoclonic_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Idiopathic_myoclonic_epilepsy">
+        <rdfs:comment>Idiopathic generalised epilepsy (IGE) is a common form of epilepsy, accounting for 20–40% of all epilepsies.1–,3 IGE is clinically characterised by absence, myoclonic seizures, and tonic–clonic seizures with the electroencephalographic (EEG) pattern of bilateral, synchronous, and symmetrical spike and wave or polyspike and wave discharges.</rdfs:comment>
+        <rdfs:label>Idiopathic myoclonic epilepsy (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/230428002</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Insular_Epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Insular_Epilepsy">
+        <rdfs:comment>Lobe of cerebral hemispheere located in the depths of the lateral fissure and is covered by portions of the frontal, parietal and temporal lobes.</rdfs:comment>
+        <rdfs:label>insular epilepsy</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/EPSO?conceptid=http%3A%2F%2Fwww.case.edu%2FEpilepsyOntology.owl%23Insula</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Lennox-Gastaut_Syndrome -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Lennox-Gastaut_Syndrome">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Epileptic_encephalopathy"/>
+        <rdfs:comment>A syndrome characterized by frequent episodes of epilepsy during childhood. The epileptic episodes may be tonic, atonic, myoclonic, or absence seizures. It may be accompanied by mental retardation and behavioral problems.</rdfs:comment>
+        <rdfs:label>Lennox-Gastaut syndrome (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/230418006</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Localization_related_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Localization_related_epilepsy">
+        <rdfs:comment>Conditions characterized by recurrent paroxysmal neuronal discharges which arise from a focal region of the brain. Partial seizures are divided into simple and complex, depending on whether consciousness is unaltered (simple partial seizure) or disturbed (complex partial seizure). Both types may feature a wide variety of motor, sensory, and autonomic symptoms. Partial seizures may be classified by associated clinical features or anatomic location of the seizure focus. A secondary generalized seizure refers to a partial seizure that spreads to involve the brain diffusely. (From Adams et al., Principles of Neurology, 6th ed, pp317)</rdfs:comment>
+        <rdfs:label>Focal epilepsy</rdfs:label>
+        <rdfs:label>Local epilepsy</rdfs:label>
+        <rdfs:label>Localisation-related epilepsy</rdfs:label>
+        <rdfs:label>Localization-related epilepsy (disorder)</rdfs:label>
+        <rdfs:label>Partial epilepsy</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/230381009</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Motor_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Motor_epilepsy">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Localization_related_epilepsy"/>
+        <rdfs:comment>A disorder characterized by recurrent localized paroxysmal discharges of cerebral neurons that give rise to seizures that have motor manifestations. The majority of partial motor seizures originate in the FRONTAL LOBE (see also EPILEPSY, FRONTAL LOBE). Motor seizures may manifest as tonic or clonic movements involving the face, one limb or one side of the body. A variety of more complex patterns of movement, including abnormal posturing of extremities, may also occur.</rdfs:comment>
+        <rdfs:label>Motor epilepsy (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/307356008</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Generalized_epilepsy"/>
+        <rdfs:comment>The most characteristic seizure type is a myoclonic-absence seizure. During a seizure, the child&apos;s neck, back, and arms become stiff or rigid (tonic contraction). There is ratchet-like (repeated starts and stops) jerking of the head, arms, and legs. The child is not aware and has a staring facial expression.</rdfs:comment>
+        <rdfs:label>Epilepsy with myoclonic absences</rdfs:label>
+        <rdfs:label>Myoclonic absence epilepsy (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/230422001</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy_non_refractory -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy_non_refractory">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy"/>
+        <rdfs:comment>DEFINITION STATUS ID	
+900000000000074008</rdfs:comment>
+        <rdfs:label>Myoclonic absence epilepsy, non-intractable</rdfs:label>
+        <rdfs:label>Myoclonic absence epilepsy, non-refractory (disorder)</rdfs:label>
+        <rdfs:label>Myoclonic absence seizures, non-refractory</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT?conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F431141000124100</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy_refractory -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy_refractory">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy"/>
+        <rdfs:comment>DEFINITION STATUS ID	
+900000000000074008</rdfs:comment>
+        <rdfs:label>Myoclonic absence epilepsy, intractable</rdfs:label>
+        <rdfs:label>Myoclonic absence epilepsy, refractory (disorder)</rdfs:label>
+        <rdfs:label>Myoclonic absence seizures, refractory</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT?conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F431131000124105</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Nonconvulsive_status_epilepticus -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Nonconvulsive_status_epilepticus">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Status_epilepticus"/>
+        <rdfs:comment>A life-threatening situation in which the brain is in a continuous state of seizure.</rdfs:comment>
+        <rdfs:label>Nonconvulsive status epilepticus (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/442512002</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Perioral_myoclonia_with_absences -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Perioral_myoclonia_with_absences">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Myoclonic_absence_epilepsy"/>
+        <rdfs:comment>A rare epilepsy syndrome characterized by absence seizures with perioral myoclonia as the main seizure type, accompanied by generalized tonic-clonic seizures, appearing before or together with absences. Consciousness is usually impaired, although to variable degree. Commonly observed absence status epilepticus, poor response to antiepileptic drugs and persistence of seizures into adulthood, in the presence of normal neurological status and intelligence, are additional clinical features of this syndrome.</rdfs:comment>
+        <rdfs:label>POMA - perioral myoclonia with absences</rdfs:label>
+        <rdfs:label>Perioral myoclonia with absences (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/766815007</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Post-traumatic_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Post-traumatic_epilepsy">
+        <rdfs:comment>Recurrent seizures causally related to CRANIOCEREBRAL TRAUMA. Seizure onset may be immediate but is typically delayed for several days after the injury and may not occur for up to two years. The majority of seizures have a focal onset that correlates clinically with the site of brain injury. Cerebral cortex injuries caused by a penetrating foreign object (CRANIOCEREBRAL TRAUMA, PENETRATING) are more likely than closed head injuries (HEAD INJURIES, CLOSED) to be associated with epilepsy. Concussive convulsions are nonepileptic phenomena that occur immediately after head injury and are characterized by tonic and clonic movements. (From Rev Neurol 1998 Feb;26(150):256-261; Sports Med 1998 Feb;25(2):131-6)</rdfs:comment>
+        <rdfs:label>Epilepsy due to and following traumatic brain injury</rdfs:label>
+        <rdfs:label>PTE - Post-traumatic epilepsy</rdfs:label>
+        <rdfs:label>Post-traumatic epilepsy (disorder)</rdfs:label>
+        <rdfs:label>Traumatic epilepsy</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/75023009</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Psychomotor_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Psychomotor_epilepsy">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Localization_related_epilepsy"/>
+        <rdfs:comment>A brain disorder characterized by episodes of abnormally increased neuronal discharge resulting in transient episodes of sensory or motor neurological dysfunction, or psychic dysfunction. These episodes may or may not be associated with loss of consciousness or convulsions.</rdfs:comment>
+        <rdfs:label>Psychomotor epilepsy (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/361123003</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#RasmussenSyndrome -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#RasmussenSyndrome">
+        <rdfs:comment>A disorder with frequent or continuous partial seizures and a progressive abnormality in the brain, possibly the result of a virus or autoimmune process.</rdfs:comment>
+        <rdfs:label>Rasmussen Syndrome</rdfs:label>
+        <rdfs:label>Rasmussen encephalitis</rdfs:label>
+        <rdfs:label>Rasmussen syndrome (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/230191005</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Status_epilepticus -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Status_epilepticus">
+        <rdfs:comment>A prolonged seizure or seizures repeated frequently enough to prevent recovery between episodes occurring over a period of 20-30 minutes. The most common subtype is generalized tonic-clonic status epilepticus, a potentially fatal condition associated with neuronal injury and respiratory and metabolic dysfunction. Nonconvulsive forms include petit mal status and complex partial status, which may manifest as behavioral disturbances. Simple partial status epilepticus consists of persistent motor, sensory, or autonomic seizures that do not impair cognition (see also EPILEPSIA PARTIALIS CONTINUA). Subclinical status epilepticus generally refers to seizures occurring in an unresponsive or comatose individual in the absence of overt signs of seizure activity. (From N Engl J Med 1998 Apr 2;338(14):970-6; Neurologia 1997 Dec;12 Suppl 6:25-30)</rdfs:comment>
+        <rdfs:label>Status epilepticus (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/230456007</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Temporal_lobe_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Temporal_lobe_epilepsy">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/PQHS416/NeurologicalDisorders#Localization_related_epilepsy"/>
+        <rdfs:comment>A focal seizure disorder affecting the temporal lobe. It is the most common form of partial epilepsy and may be more often seen in patients who have a history of febrile seizures.</rdfs:comment>
+        <rdfs:label>Psychomotor seizure</rdfs:label>
+        <rdfs:label>TLE - Temporal lobe epilepsy</rdfs:label>
+        <rdfs:label>Temporal lobe epilepsy (disorder)</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/193000002</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.case.edu/PQHS416/NeurologicalDisorders#Tonic_clonic_epilepsy -->
+
+    <owl:Class rdf:about="http://www.case.edu/PQHS416/NeurologicalDisorders#Tonic_clonic_epilepsy">
+        <rdfs:comment>A generalized seizure disorder characterized by recurrent major motor seizures. The initial brief tonic phase is marked by trunk flexion followed by diffuse extension of the trunk and extremities. The clonic phase features rhythmic flexor contractions of the trunk and limbs, pupillary dilation, elevations of blood pressure and pulse, urinary incontinence, and tongue biting. This is followed by a profound state of depressed consciousness (post-ictal state) which gradually improves over minutes to (source : MSH)</rdfs:comment>
+        <rdfs:label>Grand mal convulsion</rdfs:label>
+        <rdfs:label>Grand mal seizure</rdfs:label>
+        <rdfs:label>Tonic-clonic convulsion</rdfs:label>
+        <rdfs:label>Tonic-clonic seizure (finding)</rdfs:label>
+        <rdfs:label>Tonic-clonic seizures</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/54200006</rdfs:seeAlso>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
